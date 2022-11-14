@@ -1,21 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bootstrap</title>
-  <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-  <header class="site-header">
-    <h1 class="visually-hidden">Lorem ipsum dolor sit amet.</h1>
-    <div class="container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.2.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <h1 class="visually-hidden">Lorem ipsum dolor sit amet.</h1>
       <div class="site-header__inner">
-        <h2 class="site-header__title">Album</h2>
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="text-decoration-none text-light" href="#">
+              <em class="fas fa-camera text-light"></em>
+              <strong>Album</strong>
+            </a>
+            <!-- Navbar content -->
+            <form class="d-flex" role="search">
+              <nav class="navbar navbar-dark bg-dark">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarToggleExternalContent"
+                  aria-controls="navbarToggleExternalContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </nav>
+            </form>
+          </div>
+        </nav>
       </div>
-    </div>
-  </header>
-</body>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+  </body>
 </html>
